@@ -1,4 +1,6 @@
 const game = new Game();
+const player = new Player();
+const obstacle = new Obstacle();
 
 function preload() {}
 
@@ -8,4 +10,6 @@ function setup() {
 
 function draw() {
   game.draw();
+  player.draw();
+  obstacle.draw();
 }
